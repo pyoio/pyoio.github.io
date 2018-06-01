@@ -1,14 +1,15 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          'pyo.io'
+description:    'personal blog of @derekmortimer'
+baseurl:        ""
+url:            "https://pyo.io"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Derek Mortimer
+  url:          https://pyo.io
+  twitter:      derekmortimer
+  github:       pyoio
 
 # Build settings
 markdown:       kramdown
@@ -21,7 +22,7 @@ sass:
 # Gems
 plugins:
   - jekyll-paginate
-  # - jemoji #Uncomment this to allow emoji in your post
+  - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
